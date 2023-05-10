@@ -1,0 +1,19 @@
+#!/bin/bash
+
+read -p "Êtes-vous en C ou C++ ? (c/cpp): " lang
+
+if [ "$lang" == "c" ]; then
+    git clone git@github.com:CogalTek/template_C.git
+elif [ "$lang" == "cpp" ]; then
+    git clone git@github.com:CogalTek/template_CPP.git
+else
+    echo "Langage non pris en charge."
+    exit 1
+fi
+
+cd template*
+mv * ../
+cd ..
+rm -rf template*
+
+echo "Le projet a été téléchargé et déplacé dans le dossier courant."
