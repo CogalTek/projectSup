@@ -27,3 +27,7 @@ cd ..
 
 rm -rf projectSup
 
+
+# Extension Doc VsCode :
+
+hediet.vscode-drawio
