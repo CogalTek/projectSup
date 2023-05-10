@@ -5,9 +5,8 @@
 pour l'installer :
 
 git clone git@github.com:CogalTek/projectSup.git
+
 cd projectSup
-
-
 
 ### mac :
 mv ./projectSup /usr/local/bin/projectSup
