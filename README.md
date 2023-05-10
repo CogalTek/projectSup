@@ -10,12 +10,20 @@ cd projectSup
 
 ### mac :
 mv ./projectSup /usr/local/bin/projectSup
+
 chmod 777 /usr/local/bin/projectSup
+
 cd ..
+
 rm -rf projectSup
+
 
 ### Linux :
 mv ./projectSup [Chemin vers /bin]
+
 chmod 777 /usr/local/bin/projectSup
+
 cd ..
+
 rm -rf projectSup
+
